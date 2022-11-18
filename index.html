@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Mentor | Social proof section</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- header container -->
+      <div class="grid gap-8 px-4 md:px-0 mx-auto pt-10 md:pt-20 md:gap-0 header-container max-w-5xl">
+        <!-- header item 1 -->
+        <div class="flex flex-col space-y-4 text-center md:text-left md:justify-between">
+          <h1
+            class="max-w-sm mx-auto font-sans text-5xl font-bold md:m-0 text-primary-50 md:max-w-md">
+            10,000+ of our users love our products.
+          </h1>
+          <p class="font-sans text-xl text-neutral-10 md:max-w-md">
+            We only provide great products combined with excellent customer service. See what our
+            satisfied customers are saying about our services.
+          </p>
+        </div>
+        <!-- header item 2 -->
+        <div class="grid gap-8 text-xl text-primary-50">
+          <!-- rating 1 -->
+          <div
+            class="p-4 rounded-lg bg-neutral-20 grid gap-2 md:gap-4 review-wrapper md:justify-self-start">
+            <div class="flex justify-center space-x-2">
+              <img src="images/icon-star.svg" alt="" />
+              <img src="images/icon-star.svg" alt="" />
+              <img src="images/icon-star.svg" alt="" />
+              <img src="images/icon-star.svg" alt="" />
+              <img src="images/icon-star.svg" alt="" />
+            </div>
+            <p class="font-bold text-center font-ls">Rated 5 Stars in Reviews</p>
+          </div>
+          <!-- rating 2 -->
+          <div
+            class="p-4 rounded-lg bg-neutral-20 grid gap-2 md:gap-4 review-wrapper md:justify-self-center">
+            <div class="flex justify-center space-x-2">
+              <img src="images/icon-star.svg" alt="" />
+              <img src="images/icon-star.svg" alt="" />
+              <img src="images/icon-star.svg" alt="" />
+              <img src="images/icon-star.svg" alt="" />
+              <img src="images/icon-star.svg" alt="" />
+            </div>
+            <p class="font-bold text-center font-ls">Rated 5 Stars in Report Guru</p>
+          </div>
+          <!-- rating 3 -->
+          <div
+            class="p-4 rounded-lg bg-neutral-20 grid gap-2 md:gap-4 review-wrapper md:justify-self-end">
+            <div class="flex justify-center space-x-2">
+              <img src="images/icon-star.svg" alt="" />
+              <img src="images/icon-star.svg" alt="" />
+              <img src="images/icon-star.svg" alt="" />
+              <img src="images/icon-star.svg" alt="" />
+              <img src="images/icon-star.svg" alt="" />
+            </div>
+            <p class="font-bold text-center font-ls">Rated 5 Stars in BestTech</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main section -->
+    <main>
+      <h1 class="sr-only">Reviews of our users</h1>
+      <!-- main container -->
+      <div class="grid gap-8 justify-items-center md:gap-1 md:px-0 px-4 mx-auto pt-10 max-w-5xl main-container ">
+        <!-- card 1 -->
+        <div class="p-6 bg-primary-50 text-neutral-30 font-ls rounded-lg max-w-sm h-max md:justify-self-start md:max-w-xs">
+          <!-- card image header -->
+          <div class="flex justify-start items-center space-x-2 mb-8">
+            <img src="images/image-colton.jpg" class="aspect-square w-16 rounded-full" alt="" />
+            <p>
+              Colton Smith
+              <span class="block text-primary-100">Verified Buyer</span>
+            </p>
+          </div>
+          <p>
+            "We needed the same printed design as the one we had ordered a week prior. Not only did
+            they find the original order, but we also received it in time. Excellent!"
+          </p>
+        </div>
+        <!-- card 2 -->
+        <div class="p-6 bg-primary-50 text-neutral-30 font-ls rounded-lg max-w-sm md:mt-8 h-max md:justify-self-center md:max-w-xs">
+          <!-- card image header -->
+          <div class="flex justify-start items-center space-x-2 mb-8">
+            <img src="images/image-irene.jpg" class="aspect-square w-16 rounded-full" alt="" />
+            <p>
+              Irene Roberts
+              <span class="block text-primary-100">Verified Buyer</span>
+            </p>
+          </div>
+          <p>
+            "Customer service is always excellent and very quick turn around. Completely
+    delighted with the simplicity of the purchase and the speed of delivery."
+     </p>
+        </div>
+        <!-- card 3 -->
+        <div class="p-6 bg-primary-50 text-neutral-30 font-ls rounded-lg max-w-sm md:mt-12 h-max md:justify-self-end md:max-w-xs">
+          <!-- card image header -->
+          <div class="flex justify-start items-center space-x-2 mb-8">
+            <img src="images/image-anne.jpg" class="aspect-square w-16 rounded-full" alt="" />
+            <p>
+              Anne Wallace 
+              <span class="block text-primary-100">Verified Buyer</span>
+            </p>
+          </div>
+          <p>
+            "Put an order with this company and can only praise them for the very high
+    standard. Will definitely use them again and recommend them to everyone!"</p>
+        </div>
+      </div>
+    </main>
+   
+    <footer class="attribution text-2xl font-ls mt-10 mb-5">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </footer>
+  </body>
+</html>
